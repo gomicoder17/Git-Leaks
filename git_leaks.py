@@ -60,8 +60,8 @@ def load_csv(data):
     print(df)
     # if not os.path.exists("./output/"):
     #     os.makedirs("./output")
-    df.to_csv("/output/leaks.csv", index=False)
-    print("\nFile saved in /output/leaks.csv")
+    df.to_csv("./output/leaks.csv", index=False)
+    print("\nFile saved in ./output/leaks.csv")
 
 
 def load_json(data):
@@ -76,18 +76,18 @@ def load_json(data):
     print("...")
     # if not os.path.exists("./output/"):
     #     os.makedirs("./output")
-    df.to_json("/output/leaks.json", orient="records")
-    print("\nFile saved in /output/leaks.json")
+    df.to_json("./output/leaks.json", orient="records")
+    print("\nFile saved in ./output/leaks.json")
 
 
 if __name__ == "__main__":
     raw_text = extract()
     data = transform(raw_text)
     opt = ""
-    print("FUUUUCCKKKK")
-    with open("./data/hola.txt", "w") as f:
-        print("Writing to file")
-        f.write("hola")
+    # print("FUUUUCCKKKK")
+    # with open("./data/hola.txt", "w") as f:
+    #     print("Writing to file")
+    #     f.write("hola")
     while opt not in ["1", "2"]:
         if opt:
             print("Invalid option")
