@@ -6,8 +6,6 @@ import pandas as pd
 
 REPO_DIR = "./skale/skale-manager"
 
-print("Current path: ", os.getcwd())
-
 
 def extract():
     """
@@ -86,6 +84,7 @@ if __name__ == "__main__":
     raw_text = extract()
     data = transform(raw_text)
     opt = ""
+    print("Current path: ", os.getcwd())
     while opt not in ["1", "2"]:
         if opt:
             print("Invalid option")
