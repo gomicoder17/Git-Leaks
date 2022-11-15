@@ -84,6 +84,7 @@ if __name__ == "__main__":
     raw_text = extract()
     data = transform(raw_text)
     opt = ""
+    print("FUUUUCCKKKK")
     with open("/data/hola.txt", "w") as f:
         print("Writing to file")
         f.write("hola")
