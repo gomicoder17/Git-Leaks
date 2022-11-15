@@ -2,7 +2,7 @@ import re
 import git
 import pandas as pd
 
-REPO_DIR = "./skale/skale-manager"
+REPO_DIR = "./app/skale/skale-manager"
 
 
 def extract():
