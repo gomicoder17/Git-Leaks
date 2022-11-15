@@ -49,25 +49,40 @@ def transform(raw_text):
     return leaks_list
 
 
-def load(data):
+def load_csv(data):
     """Loads a Dataframe with each leak, type, start and surrounding text"""
     df = pd.DataFrame(data)
     df = df[["type", "word", "start", "surrounding"]]
     print(" " * 15 + "LEAKS FOUND")
     print(" " * 15 + "============")
     print(df)
-    df.to_csv("leaks.csv", index=False)
+    df.to_csv("./app/leaks.csv", index=False)
+    print("\nFile saved in ./app/leaks.csv")
 
 
 def load_json(data):
     """Loads a Dataframe with each leak, type, start and surrounding text"""
     df = pd.DataFrame(data)
     df = df[["type", "word", "start", "surrounding"]]
-    df.to_json("leaks.json", orient="records")
+    print(" " * 15 + "LEAKS FOUND")
+    print(" " * 15 + "============")
+    df.to_json("./app/leaks.json", orient="records")
+    dicts = df.to_dict(orient="records")
+    for d in dicts[:10]:
+        print(d)
+    print("...")
+    print("\nFile saved in ./app/leaks.json")
 
 
 if __name__ == "__main__":
     raw_text = extract()
     data = transform(raw_text)
-    load(data)
-    # load_json(data)
+    opt = ""
+    while opt not in ["1", "2"]:
+        if opt:
+            print("Invalid option")
+        opt = input("1. Save as CSV\n2. Save as JSON\n > ")
+    if opt == "1":
+        load_csv(data)
+    else:
+        load_json(data)
