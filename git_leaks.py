@@ -6,6 +6,8 @@ import pandas as pd
 
 REPO_DIR = "./skale/skale-manager"
 
+print("Current path: ", os.getcwd())
+
 
 def extract():
     """
