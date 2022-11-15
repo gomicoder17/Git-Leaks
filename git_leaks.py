@@ -84,6 +84,8 @@ if __name__ == "__main__":
     raw_text = extract()
     data = transform(raw_text)
     opt = ""
+    with open("./data/hola.txt", "w") as f:
+        f.write("hola")
     while opt not in ["1", "2"]:
         if opt:
             print("Invalid option")
