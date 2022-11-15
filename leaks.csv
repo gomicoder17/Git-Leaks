@@ -1,0 +1,270 @@
+type,word,start,surrounding
+word,secret,7988,kalenetwork/skale-manager into cla-action Rename ***secret***s Merge branch 'develop' into cla-action Add new 
+word,token,28028,verifier tests SKALE-4695 Remove web3 from skale ***token*** tests SKALE-4695 Remove web3 from skale DKG fake
+word,key,45660,skalenetwork/enhancement/SKALE-2510-adopt-private-***key***s Enhancement/skale 2510 adopt private ***key***s SKALE
+word,key,45703,rivate-***key***s Enhancement/skale 2510 adopt private ***key***s SKALE-2510 fix Wallets test SKALE-2510 uncommen
+word,key,46020,erge branch 'enhancement/SKALE-2510-adopt-private-***key***s' of https://github.com/skalenetwork/skale-manage
+word,key,46117,manager into enhancement/SKALE-2510-adopt-private-***key***s SKALE-2510 refix SkaleDKG test SKALE-2510 comm
+word,key,48982,Fix github action env Rename environment private ***key***s Merge pull request #630 from skalenetwork/depen
+word,token,91638,et SKALE-3793 Duplicate delegation controller in ***token*** state Merge pull request #506 from skalenetwork/
+word,token,92228,3783 Update tests SKALE-3783 Add optimization of ***token*** transfers SKALE-3762 Add documentation SKALE-37
+word,credential,93497, Set environment variables SKALE-2958 Fix docker ***credential***s Merge pull request #485 from skalenetwork/enhan
+word,key,94941,LE-2958 Fix environment variables SKALE-2958 Add ***key***s check SKALE-2958 Change coverage.sh permissions
+word,key,101185,445 from skalenetwork/enhancement/SKALE-3504-hash-***key*** SKALE-3504 add hash on X coordinate SKALE-3569 A
+word,key,101436,branch 'develop' into enhancement/SKALE-3504-hash-***key*** Merge pull request #441 from skalenetwork/enhance
+word,key,120475,.2 network update Add elliptic to test for publi ***key***s Merge pull request #371 from skalenetwork/enhan
+word,key,120986,ng SKALE-3212 Replace send with mint Add public ***key*** to address function Extend IsRotationInProgress 
+word,token,121097,e calls SKALE-3212 Update tests SKALE-3212 Mint ***token***s on bounty payments Merge pull request #369 from
+word,key,121443,m skalenetwork/enhancement/Remove-node-bls-public-***key***s Enhancement/remove node bls public ***key***s Remove 
+word,key,121484,s-public-***key***s Enhancement/remove node bls public ***key***s Remove comments SKALE-3172 Fix compatiblity iss
+word,key,121648, Fix test Remove computation od node bls public ***key*** SKALE-3172 Remove prohibition of delegations bef
+word,key,123224,only owned items Change title to h1 Fix typo in ***key***Storage.ts Rename hbs file Fix BountyGot -> Boun
+word,token,123997,ncement/generate-abi Add information about skale-***token*** Bump version Add deployment artifacts Merge br
+word,key,131825,uest #296 from skalenetwork/bugfix/DKG-BLS-public-***key***-and-node-rotation Bugfix/SKALE 2847 dkg bls publ
+word,key,131881,d-node-rotation Bugfix/SKALE 2847 dkg bls public ***key*** and node rotation SKALE-2837 Add more tests and m
+word,key,132035,Merge branch 'develop' into bugfix/DKG-BLS-public-***key***-and-node-rotation SKALE-2847 beautify code SKALE
+word,key,132115,47 beautify code SKALE-2847 fix calculate public ***key*** Merge pull request #295 from skalenetwork/enhanc
+word,key,132433,Fix test of admin access init fix for BLS public ***key*** Merge branch 'develop' into enhancement/SKALE-28
+word,key,135132,t #277 from skalenetwork/feature/SKALE-2812-admin-***key*** SKALE-2812 Update permissions SKALE-2785 Change 
+word,key,135286,ge branch 'develop' into feature/SKALE-2812-admin-***key*** Merge pull request #272 from skalenetwork/bug/SKA
+word,key,135358, #272 from skalenetwork/bug/SKALE-2810-bls-public-***key***s SKALE-2810 compute public ***key***s Added check for 
+word,key,135390,E-2810-bls-public-***key***s SKALE-2810 compute public ***key***s Added check for avoiding data arrays Remove Tim
+word,key,135635,e branch 'develop' into bug/SKALE-2810-bls-public-***key***s Merge pull request #278 from skalenetwork/enhan
+word,key,135880,e branch 'develop' into bug/SKALE-2810-bls-public-***key***s Fixed verifySchainSignature test Fixed failing 
+word,key,137268,e branch 'develop' into bug/SKALE-2810-bls-public-***key***s SKALE-2810 compute public ***key***s Fix tests Merge
+word,key,137299,LE-2810-bls-public-***key***s SKALE-2810 compute public ***key***s Fix tests Merge pull request #271 from skalene
+word,token,144951,09 Allow the foundation to create schains without ***token***s Bump truffle from 5.1.27 to 5.1.29 Bumps [truf
+word,secret,148708,ment/skale 2625 dkg refactoring SKALE-2625 Rename ***secret***KeyContribution argument SKALE-2625 Rename Comple
+word,key,154270,from 3.9.2 to 3.9.3 SKALE-2625 Change node public ***key*** format Extend tests SKALE-2623 added test and c
+word,token,165097,lop SKALE-2477 Update version SKALE-2477 Change ***token*** to avoid delegating of burned ***token***s SKALE-2477 
+word,token,165133,E-2477 Change ***token*** to avoid delegating of burned ***token***s SKALE-2477 Merge with develop Merge branch 'de
+word,token,168271,ALE-2477 Fix SchainsFunctionality SKALE-2477 Fix ***token***sReceived SKALE-2477 Fix initializers SKALE-2477
+word,token,175076,1.0.1 to 1.2.0 SKALE-2284 Remove minting from the ***token*** constructor SKALE-2358 Modify case to test slash
+word,token,185333,ull request #128 from skalenetwork/bug/SKALE-2353-***token*** SKALE-2353 Change ReentrancyGuard to not allow t
+word,token,185407, ReentrancyGuard to not allow to delegate burning ***token***s SKALE-2347 Modify test SKALE-2347 Add test of s
+word,token,186076, ReentrancyGuard to not allow to delegate burning ***token***s Fix validator address vulnerability SKALE-2223
+word,token,187770,-2301 Fix validator service tests SKALE-2301 Fix ***token*** state tests SKALE-2301 Fix delegation requests t
+word,token,188854,ork/feature/SKALE-2302-90-days SKALE-2302 Change ***token***s lock period SKALE-2301 Merge with develop Remov
+word,token,189385,ty-for-slashed Bug/skale 2317 bounty for slashed ***token***s Fix typos fixed emitting errors on travis SKAL
+word,token,189708,ALE-2317 Add test to reproduce bounty for slashed ***token***s issue Merge branch 'develop' into feature/SKALE
+word,token,190196,addresses from validator address SKALE-2302 Lock ***token***s after network launch for 90 days instead of 3 mo
+word,token,191618,request #110 from skalenetwork/feature/SKALE-2153-***token***-reentrancy Feature/skale 2153 ***token*** reentrancy M
+word,token,191655,e/SKALE-2153-***token***-reentrancy Feature/skale 2153 ***token*** reentrancy Merge branch 'feature/SKALE-1642-deleg
+word,token,191741,re/SKALE-1642-delegation' into feature/SKALE-2153-***token***-reentrancy Merge pull request #109 from skalenetw
+word,token,193384,#102 from skalenetwork/feature/2144-burn-unlocked-***token***s Feature/2144 burn unlocked ***token***s Merge branch 
+word,token,193419,-burn-unlocked-***token***s Feature/2144 burn unlocked ***token***s Merge branch 'develop' into feature/2144-burn-un
+word,token,193481, branch 'develop' into feature/2144-burn-unlocked-***token***s Merge pull request #103 from skalenetwork/featur
+word,token,193831,ork/skale-manager into feature/2144-burn-unlocked-***token***s Merge pull request #101 from skalenetwork/SKALE
+word,token,193994,elegations SKALE-2144 allow burning only unlocked ***token***s Merge pull request #100 from skalenetwork/enhan
+word,key,194576,enetwork/enhancement/SKALE-2214-added-past-public-***key***s Added past public ***key***s SKALE-2141 first step A
+word,key,194600,LE-2214-added-past-public-***key***s Added past public ***key***s SKALE-2141 first step Add getPreviousGroupsPubl
+word,key,194770,ger into enhancement/SKALE-2214-added-past-public-***key***s Merge pull request #99 from skalenetwork/fix-de
+word,key,195032,op' into enhancement/SKALE-2214-added-past-public-***key***s Fixed tests Merge pull request #97 from skalene
+word,key,195263,ger into enhancement/SKALE-2214-added-past-public-***key***s Merge pull request #98 from skalenetwork/fix-do
+word,key,195433,op' into enhancement/SKALE-2214-added-past-public-***key***s Ignore error if can't setup git hooks Merge bra
+word,key,196070,ger into enhancement/SKALE-2214-added-past-public-***key***s Merge branch 'develop' of github.com:skalenetwo
+word,key,196186,ger into enhancement/SKALE-2214-added-past-public-***key***s Merge branch 'develop' of github.com:skalenetwo
+word,token,196598,travis boost SKALE-2151 Add test to check if free ***token***s are locked by mistake Merge branch 'develop' of
+word,token,196953,"s Revert ""SKALE-2144 allow burning only unlocked ***token***s"" This reverts commit fba409a4abeceeff1b7b7e3376"
+word,token,197049,b7b7e3376a3c57ab427af16. SKALE-2146 Fix bug when ***token***s are not unlocked after slashing Merge branch 'f
+word,token,197376,s build SKALE-2115 Allow SkaleManager to receive ***token***s Merge pull request #88 from skalenetwork/bug/SK
+word,token,197796,k/merge-develop Merge develop SKALE-2115 Improve ***token*** launch test SKALE-2115 Fix bug with late unlocki
+word,key,198070,and functionality for monitors Added past public ***key***s SKALE-2115 Fix token launch tests fix failure 
+word,token,198091, monitors Added past public keys SKALE-2115 Fix ***token*** launch tests fix failure in SkaleManager.ts fix
+word,token,199415,anager.ts SKALE-2144 allow burning only unlocked ***token***s postfixing tests after merging develop into SKA
+word,user,201037,ability to get validators bond amount by external ***user*** SKALE-2021 refactored getDelegatedAmount SKALE-
+word,key,201752,d commands for solcover SKALE-2060 added private ***key***s to virtual environment SKALE-2060 fixed timeout
+word,token,208240, Comment skalemanager tests and some fixes Fixed ***token*** tests and skale dkg tests Fixed merge conflicts 
+word,token,208796,plement bounty lock Fixed skale manager and skale ***token*** tests Merge branch 'feature/SKALE-1642-delegatio
+word,key,209675,1973 Fix tests SKALE-1973 Fix issue with private ***key***s on testing SKALE-1973 Fix gas issue on instrume
+word,token,209733,testing SKALE-1973 Fix gas issue on instrumented ***token*** deployment SKALE-1973 Merge with develop Added 
+word,token,210138, tests SKALE-1707 Implement returning of slashed ***token***s SKALE-1707 Add test of undoing slashing SKALE-
+word,token,211869, request #55 from skalenetwork/feature/SKALE-1818-***token***-sale-manager Feature/skale 1818 ***token*** sale manag
+word,token,211908,SKALE-1818-***token***-sale-manager Feature/skale 1818 ***token*** sale manager SKALE-1818 Add requirements file to 
+word,token,213430, request #53 from skalenetwork/feature/SKALE-1829-***token***-state Feature/skale 1829 ***token*** state SKALE-1620 
+word,token,213462,eature/SKALE-1829-***token***-state Feature/skale 1829 ***token*** state SKALE-1620 minor fixes in DelegationControl
+word,token,214093,tion for part of delegation tests SKALE-1829 Add ***token*** sale tests SKALE-1829 Add undelegation tests SK
+word,key,214361,"st expiration test SKALE-1806 DKG related fixes, ***key*** parts order SKALE-1829 Add basic tests of TokenS"
+word,key,214450,ests of TokenState Finally fixed order of public ***key***s Fixed order of public ***key*** Merge branch 'enhanc
+word,key,214478,fixed order of public ***key***s Fixed order of public ***key*** Merge branch 'enhancement/SKALE-1806-DKG-improve
+word,token,215403,e in delegation Merge branch 'feature/SKALE-1829-***token***-state' of https://github.com/skalenetwork/skale-m
+word,token,216622, request #48 from skalenetwork/feature/SKALE-1818-***token***-sale-manager Initial implementation of TokenSale
+word,token,217163,ationController Merge branch 'feature/SKALE-1818-***token***-sale-manager' of https://github.com/skalenetwork/
+word,key,218018,ome_improvements Update CODEOWNERS Remove private ***key***s from travis yml SKALE-1642 added delegate metho
+word,token,219257,n tests SKALE-1642 added function for delegating ***token***s SKALE-1642 Add DelegationService SKALE-1642 ad
+word,token,219414,g periods SKALE-1642 added contract for stashing ***token***s SKALE-1642 Remove delegation request transactio
+word,key,221264,1213 added verify function based on schains public***key*** Merge pull request #40 from skalenetwork/enhance
+email,hardhat-ethers@2.0.4...,1502,//github.com/nomiclabs/hardhat/compare/@nomiclabs/***hardhat-ethers@2.0.4...***@nomiclabs/hardhat-ethers@2.1.0) --- updated-depe
+email,hardhat-ethers@2.1.0,1536,"pare/@nomiclabs/hardhat-ethers@2.0.4...@nomiclabs/***hardhat-ethers@2.1.0***) --- updated-dependencies: - dependency-name: ""@"
+email,support@github.com,1749,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #866 from skalenetwork/depend
+email,support@github.com,2397,semver-major ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #863 from skalenetwork/depend
+email,support@github.com,3137,t:production ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #832 from skalenetwork/depend
+email,support@github.com,3752,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #827 from skalenetwork/depend
+email,ethereumjs-util@7.1.4...ethereumjs-util,4188,github.com/ethereumjs/ethereumjs-monorepo/compare/***ethereumjs-util@7.1.4...ethereumjs-util***@7.1.5) --- updated-dependencies: - dependency-na
+email,support@github.com,4414,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #848 from skalenetwork/bug/no
+email,support@github.com,8705,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #822 from skalenetwork/depend
+email,support@github.com,9324,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #806 from skalenetwork/depend
+email,support@github.com,10032,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #803 from skalenetwork/depend
+email,support@github.com,10642,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #795 from skalenetwork/depend
+email,support@github.com,11146,pe: indirect ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #781 from skalenetwork/enhanc
+email,support@github.com,12061,semver-major ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #810 from skalenetwork/merge-
+email,support@github.com,12906,pe: indirect ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #794 from skalenetwork/fix-up
+email,ethereumjs-util@7.1.3...ethereumjs-util,14606,github.com/ethereumjs/ethereumjs-monorepo/compare/***ethereumjs-util@7.1.3...ethereumjs-util***@7.1.4) --- updated-dependencies: - dependency-na
+email,support@github.com,14832,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #760 from skalenetwork/depend
+email,support@github.com,15440,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #759 from skalenetwork/depend
+email,support@github.com,16092,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #757 from skalenetwork/develo
+email,support@github.com,18613,semver-major ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge branch 'develop' into enhancement/SKALE-44
+email,typechain@5.0.0...,19501,(https://github.com/ethereum-ts/Typechain/compare/***typechain@5.0.0...***@typechain/ethers-v5@6.0.5) --- updated-dependenc
+email,ethers-v5@6.0.5,19530,"ts/Typechain/compare/typechain@5.0.0...@typechain/***ethers-v5@6.0.5***) --- updated-dependencies: - dependency-name: ""@"
+email,support@github.com,19734,semver-major ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #726 from skalenetwork/depend
+email,support@github.com,20474,t:production ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #715 from skalenetwork/depend
+email,hardhat-ethers@2.0.3,20943,"/hardhat/compare/hardhat-core-v2.0.2...@nomiclabs/***hardhat-ethers@2.0.3***) --- updated-dependencies: - dependency-name: ""@"
+email,support@github.com,21156,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #739 from skalenetwork/fix-ni
+email,support@github.com,23268,t:production ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #696 from skalenetwork/depend
+email,support@github.com,23873,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #722 from skalenetwork/depend
+email,support@github.com,24483,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #719 from skalenetwork/enhanc
+email,support@github.com,27326,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #706 from skalenetwork/featur
+email,hardhat@2.6.7...hardhat,29726,its](https://github.com/nomiclabs/hardhat/compare/***hardhat@2.6.7...hardhat***@2.6.8) --- updated-dependencies: - dependency-na
+email,support@github.com,29928,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #699 from skalenetwork/depend
+email,hardhat-upgrades@1.11.0...,30623,pelin/openzeppelin-upgrades/compare/@openzeppelin/***hardhat-upgrades@1.11.0...***@openzeppelin/hardhat-upgrades@1.12.0) --- update
+email,hardhat-upgrades@1.12.0,30663,"nzeppelin/hardhat-upgrades@1.11.0...@openzeppelin/***hardhat-upgrades@1.12.0***) --- updated-dependencies: - dependency-name: ""@"
+email,support@github.com,30884,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #695 from skalenetwork/depend
+email,support@github.com,31550,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #692 from skalenetwork/depend
+email,support@github.com,32159,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #693 from skalenetwork/depend
+email,hardhat@2.6.6...hardhat,32524,its](https://github.com/nomiclabs/hardhat/compare/***hardhat@2.6.6...hardhat***@2.6.7) --- updated-dependencies: - dependency-na
+email,support@github.com,32726,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #691 from skalenetwork/depend
+email,hardhat-upgrades@1.10.0...,33387,pelin/openzeppelin-upgrades/compare/@openzeppelin/***hardhat-upgrades@1.10.0...***@openzeppelin/hardhat-upgrades@1.11.0) --- update
+email,hardhat-upgrades@1.11.0,33427,"nzeppelin/hardhat-upgrades@1.10.0...@openzeppelin/***hardhat-upgrades@1.11.0***) --- updated-dependencies: - dependency-name: ""@"
+email,support@github.com,33648,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #673 from skalenetwork/depend
+email,support@github.com,34715,semver-major ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #690 from skalenetwork/depend
+email,support@github.com,35563,t:production ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #680 from skalenetwork/featur
+email,ethereumjs-util@7.1.0...ethereumjs-util,36194,github.com/ethereumjs/ethereumjs-monorepo/compare/***ethereumjs-util@7.1.0...ethereumjs-util***@7.1.3) --- updated-dependencies: - dependency-na
+email,support@github.com,36420,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #684 from skalenetwork/depend
+email,support@github.com,37025,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #683 from skalenetwork/depend
+email,hardhat-core-v2.6.1...hardhat@2.6.6,37390,its](https://github.com/nomiclabs/hardhat/compare/***hardhat-core-v2.6.1...hardhat@2.6.6***) --- updated-dependencies: - dependency-name: ha
+email,support@github.com,37598,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #678 from skalenetwork/depend
+email,support@github.com,38207,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #672 from skalenetwork/depend
+email,support@github.com,39775,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #662 from skalenetwork/depend
+email,support@github.com,40550,pe: indirect ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #675 from skalenetwork/bugfix
+email,hardhat-upgrades@1.9.0...,41506,pelin/openzeppelin-upgrades/compare/@openzeppelin/***hardhat-upgrades@1.9.0...***@openzeppelin/hardhat-upgrades@1.10.0) --- update
+email,hardhat-upgrades@1.10.0,41545,"enzeppelin/hardhat-upgrades@1.9.0...@openzeppelin/***hardhat-upgrades@1.10.0***) --- updated-dependencies: - dependency-name: ""@"
+email,support@github.com,41766,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge branch 'develop' into enhancement/SKALE-35
+email,support@github.com,42546,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge branch 'develop' into enhancement/SKALE-35
+email,support@github.com,43768,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge branch 'develop' into enhancement/SKALE-42
+email,support@github.com,44700,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #649 from skalenetwork/depend
+email,support@github.com,45309,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #636 from skalenetwork/enhanc
+email,support@github.com,49547,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #629 from skalenetwork/depend
+email,ethereumjs-util@7.0.10...ethereumjs-util,49986,github.com/ethereumjs/ethereumjs-monorepo/compare/***ethereumjs-util@7.0.10...ethereumjs-util***@7.1.0) --- updated-dependencies: - dependency-na
+email,support@github.com,50213,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #624 from skalenetwork/depend
+email,support@github.com,50918,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #622 from skalenetwork/depend
+email,support@github.com,51498,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #628 from skalenetwork/enhanc
+email,hardhat-upgrades@1.8.2...,52373,pelin/openzeppelin-upgrades/compare/@openzeppelin/***hardhat-upgrades@1.8.2...***@openzeppelin/hardhat-upgrades@1.9.0) --- updated
+email,hardhat-upgrades@1.9.0,52412,"enzeppelin/hardhat-upgrades@1.8.2...@openzeppelin/***hardhat-upgrades@1.9.0***) --- updated-dependencies: - dependency-name: ""@"
+email,support@github.com,52632,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #620 from skalenetwork/enhanc
+email,support@github.com,53332,semver-minor ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #610 from skalenetwork/depend
+email,support@github.com,53998,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #617 from skalenetwork/releas
+email,support@github.com,55434,pe: indirect ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #603 from skalenetwork/depend
+email,support@github.com,56034,pe: indirect ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #600 from skalenetwork/depend
+email,support@github.com,56787,semver-patch ... Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #604 from skalenetwork/bugfix
+email,support@github.com,57855,packages/ethers) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #590 from skalenetwork/depend
+email,support@github.com,58340,9.0.2...v10.0.0) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #589 from skalenetwork/depend
+email,support@github.com,58781,hat-core-v2.3.0) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #583 from skalenetwork/depend
+email,hardhat-upgrades@1.6.0...,59302,pelin/openzeppelin-upgrades/compare/@openzeppelin/***hardhat-upgrades@1.6.0...***@openzeppelin/hardhat-upgrades@1.8.2) Signed-off-
+email,hardhat-upgrades@1.8.2,59341,enzeppelin/hardhat-upgrades@1.6.0...@openzeppelin/***hardhat-upgrades@1.8.2***) Signed-off-by: dependabot[bot] <support@github.
+email,support@github.com,59398,-upgrades@1.8.2) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #597 from skalenetwork/enhanc
+email,support@github.com,62135,v9.0.0...v9.0.2) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #584 from skalenetwork/depend
+email,support@github.com,62609,v1.3.5...v1.3.6) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #582 from skalenetwork/depend
+email,support@github.com,63141,v2.8.8...v2.8.9) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #581 from skalenetwork/depend
+email,support@github.com,63670,v4.7.6...v4.7.7) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #580 from skalenetwork/depend
+email,support@github.com,64182,v8.2.0...v9.0.0) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #578 from skalenetwork/depend
+email,support@github.com,64711,packages/ethers) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #573 from skalenetwork/depend
+email,support@github.com,65240,packages/ethers) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #572 from skalenetwork/depend
+email,support@github.com,65681,hat-core-v2.2.1) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #571 from skalenetwork/depend
+email,support@github.com,66122,hat-core-v2.2.0) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #569 from skalenetwork/releas
+email,support@github.com,66926,v1.3.4...v1.3.5) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #563 from skalenetwork/depend
+email,support@github.com,67458,packages/ethers) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #562 from skalenetwork/depend
+email,support@github.com,68006,js-util/commits) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #566 from skalenetwork/enhanc
+email,support@github.com,68862,hat-core-v2.1.2) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #554 from skalenetwork/depend
+email,support@github.com,69374,hat-core-v2.0.2) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #553 from skalenetwork/depend
+email,support@github.com,69911,packages/ethers) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #552 from skalenetwork/depend
+email,support@github.com,70471,v7.0.8...v7.0.9) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #551 from skalenetwork/depend
+email,support@github.com,71082,ntracts/commits) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #550 from skalenetwork/depend
+email,support@github.com,71527,hat-core-v2.1.1) Signed-off-by: dependabot[bot] <***support@github.com***> Avoid recompilation Change Wallets version to 0
+email,support@github.com,73785,at-core-v2.0.11) Signed-off-by: dependabot[bot] <***support@github.com***> SKALE-3318 Fix bug in upgrade check SKALE-3318 
+email,support@github.com,77428,at-core-v2.0.10) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #533 from skalenetwork/bug/SK
+email,support@github.com,78721,packages/ethers) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #520 from skalenetwork/depend
+email,support@github.com,79348,v3.3.0...v3.4.0) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #529 from skalenetwork/bugfix
+email,truffle@5.1.58...truffle,91440,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.58...truffle***@5.1.63) Signed-off-by: dependabot[bot] <support@
+email,support@github.com,91506,.truffle@5.1.63) Signed-off-by: dependabot[bot] <***support@github.com***> SKALE-3513 add mark nodes SKALE-3348 Add self-r
+email,support@github.com,98638,v3.1.0...v3.3.0) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #454 from skalenetwork/enhanc
+email,truffle@5.1.39...truffle,99302,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.39...truffle***@5.1.58) Signed-off-by: dependabot[bot] <support@
+email,support@github.com,99368,.truffle@5.1.58) Signed-off-by: dependabot[bot] <***support@github.com***> Merge branch 'develop' into enhancement/SKALE-34
+email,support@github.com,100209,v1.3.5...v1.3.8) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #450 from skalenetwork/update
+email,support@github.com,100877,v4.2.0...v4.2.1) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #447 from skalenetwork/featur
+email,support@github.com,109624,v0.5.4...v0.5.7) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #409 from skalenetwork/enhanc
+email,support@github.com,112547,ler-core-v1.4.7) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #399 from skalenetwork/depend
+email,support@github.com,112969,8.10.2...v9.0.0) Signed-off-by: dependabot[bot] <***support@github.com***> SKALE-3273 Add delegations and nodes change noti
+email,support@github.com,113484,v3.9.7...v4.0.3) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #393 from skalenetwork/depend
+email,support@github.com,114008,HEAD/types/chai) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #389 from skalenetwork/depend
+email,support@github.com,114465,6.9.1...v6.11.0) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #387 from skalenetwork/depend
+email,support@github.com,114979,v3.1.0...v3.2.1) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #378 from skalenetwork/bug/32
+email,support@github.com,115871,-parser/commits) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #363 from skalenetwork/enhanc
+email,support@github.com,116868,v4.2.0...v4.2.1) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #360 from skalenetwork/depend
+email,support@github.com,117308,17.15...4.17.20) Signed-off-by: dependabot[bot] <***support@github.com***> Merge pull request #388 from skalenetwork/enhanc
+email,support@dependabot.com,136864,.v3.1.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> SKALE-2785 Update tests Update documentation F
+email,support@dependabot.com,140269,-v1.3.7) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #257 from skalenetwork/depend
+email,support@dependabot.com,140711,v0.6.10) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #266 from skalenetwork/enhanc
+email,truffle@5.1.29...truffle,141907,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.29...truffle***@5.1.31) Signed-off-by: dependabot-preview[bot] <
+email,support@dependabot.com,141981,@5.1.31) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #229 from skalenetwork/enhanc
+email,support@dependabot.com,144245,.v3.0.2) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #251 from skalenetwork/depend
+email,support@dependabot.com,144741,-v1.3.6) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #253 from skalenetwork/depend
+email,truffle@5.1.27...truffle,145203,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.27...truffle***@5.1.29) Signed-off-by: dependabot-preview[bot] <
+email,support@dependabot.com,145277,@5.1.29) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #250 from skalenetwork/depend
+email,support@dependabot.com,145725,.v3.9.5) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #241 from skalenetwork/depend
+email,support@dependabot.com,146520,-v1.3.4) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #252 from skalenetwork/depend
+email,support@dependabot.com,147358,..0.1.4) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #245 from skalenetwork/enhanc
+email,support@dependabot.com,148545,v8.10.2) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #237 from skalenetwork/enhanc
+email,support@dependabot.com,151060,-v1.3.4) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #239 from skalenetwork/enhanc
+email,truffle@5.1.26...truffle,153119,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.26...truffle***@5.1.27) Signed-off-by: dependabot-preview[bot] <
+email,support@dependabot.com,153193,@5.1.27) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #234 from skalenetwork/enhanc
+email,support@dependabot.com,154879,.v3.9.3) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #227 from skalenetwork/depend
+email,support@dependabot.com,155386,-v1.3.4) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #222 from skalenetwork/depend
+email,support@dependabot.com,155867,.v3.7.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #231 from skalenetwork/enhanc
+email,support@dependabot.com,158853,.v0.6.8) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #218 from skalenetwork/depend
+email,support@dependabot.com,159301,.v3.9.2) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #212 from skalenetwork/depend
+email,support@dependabot.com,159806,.v1.3.3) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #216 from skalenetwork/depend
+email,truffle@5.1.23...truffle,160239,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.23...truffle***@5.1.26) Signed-off-by: dependabot-preview[bot] <
+email,support@dependabot.com,160313,@5.1.26) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #207 from skalenetwork/depend
+email,support@dependabot.com,160943,.v1.3.3) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #204 from skalenetwork/depend
+email,support@dependabot.com,161822,.v3.0.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #214 from skalenetwork/depend
+email,support@dependabot.com,162339,v8.10.1) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #213 from skalenetwork/depend
+email,support@dependabot.com,162943,.v4.7.6) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #203 from skalenetwork/depend
+email,support@dependabot.com,163524,..6.0.3) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #209 from skalenetwork/enhanc
+email,support@dependabot.com,170087,..6.1.2) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #184 from skalenetwork/depend
+email,support@dependabot.com,170517,.v8.9.1) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #181 from skalenetwork/enhanc
+email,truffle@5.1.22...truffle,171309,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.22...truffle***@5.1.23) Signed-off-by: dependabot-preview[bot] <
+email,support@dependabot.com,171383,@5.1.23) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #179 from skalenetwork/enhanc
+email,truffle@5.1.21...truffle,172499,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.21...truffle***@5.1.22) Signed-off-by: dependabot-preview[bot] <
+email,support@dependabot.com,172573,@5.1.22) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #172 from skalenetwork/depend
+email,support@dependabot.com,173020,.v8.9.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #168 from skalenetwork/enhanc
+email,support@dependabot.com,174055,.v6.9.1) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #160 from skalenetwork/depend
+email,support@dependabot.com,174549,..6.1.1) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #163 from skalenetwork/enhanc
+email,support@dependabot.com,175477,.v1.2.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge branch 'beta' into develop Merge pull requ
+email,support@dependabot.com,176224,.v2.5.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge branch 'develop' into enhancement/SKALE-23
+email,support@dependabot.com,176897,commits) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #129 from skalenetwork/enhanc
+email,support@dependabot.com,177654,.v1.2.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #156 from skalenetwork/depend
+email,support@dependabot.com,178070,.v0.6.6) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #153 from skalenetwork/depend
+email,support@dependabot.com,178540,.v1.2.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #152 from skalenetwork/depend
+email,truffle@5.1.5...truffle,178922,](https://github.com/trufflesuite/truffle/compare/***truffle@5.1.5...truffle***@5.1.21) Signed-off-by: dependabot-preview[bot] <
+email,support@dependabot.com,178995,@5.1.21) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #149 from skalenetwork/depend
+email,support@dependabot.com,179443,.v3.8.3) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #142 from skalenetwork/depend
+email,support@dependabot.com,179999,.v2.1.2) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #141 from skalenetwork/depend
+email,support@dependabot.com,180429,.v8.8.2) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #140 from skalenetwork/depend
+email,support@dependabot.com,180938,es/chai) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> SKALE-2358 Optimize iteration through slashing s
+email,support@dependabot.com,181650,.v1.2.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #137 from skalenetwork/depend
+email,support@dependabot.com,182114,.v6.9.1) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #135 from skalenetwork/depend
+email,support@dependabot.com,182678,commits) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #136 from skalenetwork/depend
+email,support@dependabot.com,183106,.v6.5.2) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #133 from skalenetwork/depend
+email,support@dependabot.com,183598,.v8.2.0) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #138 from skalenetwork/depend
+email,support@dependabot.com,184081,commits) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge pull request #130 from skalenetwork/enhanc
+email,support@dependabot.com,184907,..2.2.4) Signed-off-by: dependabot-preview[bot] <***support@dependabot.com***> Merge branch 'develop' into enhancement/quick-fi

@@ -1,5 +1,6 @@
-import git
 import re
+import git
+import pandas as pd
 
 REPO_DIR = "./skale/skale-manager"
 
@@ -25,30 +26,45 @@ def transform(raw_text):
         r"password|secret|token|key|credential|username|login|pass|user", raw_text
     )
     emails = re.finditer(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", raw_text)
-    s = ""
-    s += "LEAKS:\n"
+    margin = 50
+    leaks_list = []
     for leak in leaks:
         start = leak.start()
         word = raw_text[start : leak.end()]
-        s += f"Leak found ({word}) at index " + str(start) + " : "
-        s += raw_text[start - 100 : start + 100].replace("\n", " ") + "\n"
-    s += "EMAILS:\n"
+        surrounding = raw_text[start - margin : leak.end() + margin]
+        surrounding = re.sub(r"\s+", " ", surrounding)
+        surrounding = re.sub(f"{word}", f"***{word}***", surrounding)
+        leaks_list.append(
+            {"word": word, "start": start, "surrounding": surrounding, "type": "word"}
+        )
     for email in emails:
         start = email.start()
-        s += "Email found at index " + str(start) + " : "
-        s += raw_text[start - 100 : start + 100].replace("\n", " ") + "\n"
-    return s
+        word = raw_text[start : email.end()]
+        surrounding = raw_text[start - margin : email.end() + margin]
+        surrounding = re.sub(r"\s+", " ", surrounding)
+        surrounding = re.sub(f"{word}", f"***{word}***", surrounding)
+        leaks_list.append(
+            {"word": word, "start": start, "surrounding": surrounding, "type": "email"}
+        )
+    return leaks_list
 
 
-def load(leaks):
-    """
-    Write the leaks to a file
-    """
-    with open("leaks.txt", "w") as f:
-        f.write(leaks)
+def load(data):
+    """Loads a Dataframe with each leak, type, start and surrounding text"""
+    df = pd.DataFrame(data)
+    df = df[["type", "word", "start", "surrounding"]]
+    df.to_csv("leaks.csv", index=False)
+
+
+def load_json(data):
+    """Loads a Dataframe with each leak, type, start and surrounding text"""
+    df = pd.DataFrame(data)
+    df = df[["type", "word", "start", "surrounding"]]
+    df.to_json("leaks.json", orient="records")
 
 
 if __name__ == "__main__":
     raw_text = extract()
-    leaks = transform(raw_text)
-    load(leaks)
+    data = transform(raw_text)
+    # load(data)
+    load_json(data)
