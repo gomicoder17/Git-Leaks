@@ -6,8 +6,6 @@ if running docker:
 
 if running locally:
     > pip install -r requirements.txt
-    > python3 main.py
+    > python git-leaks.py
 
-The script will ask you wether to save the leaks as csv or json, and then save them in /output folder.
-
-IMPORTANT: if running docker, the output folder must exist in the host machine.
+The script will ask you wether to save the leaks as csv or json, and then save them in the /output folder.
