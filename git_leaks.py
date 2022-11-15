@@ -77,15 +77,13 @@ def load_json(data):
     if not os.path.exists("./output/"):
         os.makedirs("./output")
     df.to_json("./output/leaks.json", orient="records")
-    print("\nFile saved in ./leaks.json")
+    print("\nFile saved in ./output/leaks.json")
 
 
 if __name__ == "__main__":
     raw_text = extract()
     data = transform(raw_text)
     opt = ""
-    with open("/data/hola.txt", "w") as f:
-        f.write("hola")
     while opt not in ["1", "2"]:
         if opt:
             print("Invalid option")
