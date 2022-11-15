@@ -1,7 +1,7 @@
 FROM python:3.10
 
-ADD . /app
+ADD . .
 
-RUN pip install --upgrade pip && pip install -r /app/requirements.txt
+RUN pip install --upgrade pip && pip install -r ./requirements.txt
 
-CMD ["python", "./app/git_leaks.py"]
+CMD ["python", "./git_leaks.py"]

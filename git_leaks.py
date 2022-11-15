@@ -1,8 +1,10 @@
 import re
+import os
 import git
 import pandas as pd
 
-REPO_DIR = "./app/skale/skale-manager"
+
+REPO_DIR = "./skale/skale-manager"
 
 
 def extract():
@@ -56,8 +58,10 @@ def load_csv(data):
     print(" " * 15 + "LEAKS FOUND")
     print(" " * 15 + "============")
     print(df)
-    df.to_csv("./app/leaks.csv", index=False)
-    print("\nFile saved in ./app/leaks.csv")
+    if not os.path.exists("./output/"):
+        os.makedirs("./output")
+    df.to_csv("./output/leaks.csv", index=False)
+    print("\nFile saved in ./output/leaks.csv")
 
 
 def load_json(data):
@@ -66,12 +70,14 @@ def load_json(data):
     df = df[["type", "word", "start", "surrounding"]]
     print(" " * 15 + "LEAKS FOUND")
     print(" " * 15 + "============")
-    df.to_json("./app/leaks.json", orient="records")
     dicts = df.to_dict(orient="records")
     for d in dicts[:10]:
         print(d)
     print("...")
-    print("\nFile saved in ./app/leaks.json")
+    if not os.path.exists("./output/"):
+        os.makedirs("./output")
+    df.to_json("./output/leaks.json", orient="records")
+    print("\nFile saved in ./leaks.json")
 
 
 if __name__ == "__main__":
