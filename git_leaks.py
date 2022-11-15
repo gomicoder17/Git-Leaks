@@ -53,6 +53,9 @@ def load(data):
     """Loads a Dataframe with each leak, type, start and surrounding text"""
     df = pd.DataFrame(data)
     df = df[["type", "word", "start", "surrounding"]]
+    print(" " * 15 + "LEAKS FOUND")
+    print(" " * 15 + "============")
+    print(df)
     df.to_csv("leaks.csv", index=False)
 
 
@@ -66,5 +69,5 @@ def load_json(data):
 if __name__ == "__main__":
     raw_text = extract()
     data = transform(raw_text)
-    # load(data)
-    load_json(data)
+    load(data)
+    # load_json(data)
