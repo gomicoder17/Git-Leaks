@@ -85,7 +85,7 @@ if __name__ == "__main__":
     data = transform(raw_text)
     opt = ""
     print("FUUUUCCKKKK")
-    with open("/data/hola.txt", "w") as f:
+    with open("./data/hola.txt", "w") as f:
         print("Writing to file")
         f.write("hola")
     while opt not in ["1", "2"]:
