@@ -2,7 +2,9 @@ import re
 import os
 import git
 import pandas as pd
-
+import tqdm
+from time import sleep
+import random
 
 REPO_DIR = "./skale/skale-manager"
 
@@ -13,8 +15,10 @@ def extract():
     """
     repo = git.Repo(REPO_DIR)
     s = ""
-    for commit in repo.iter_commits():
+    for commit in tqdm.tqdm(repo.iter_commits(), desc="Extracting commits"):
         s += commit.message + "\n"
+        if random.random() < 0.1:
+            sleep(0.0001)
     return s
 
 
@@ -30,7 +34,7 @@ def transform(raw_text):
     emails = re.finditer(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", raw_text)
     margin = 50
     leaks_list = []
-    for leak in leaks:
+    for leak in tqdm.tqdm(leaks, desc="Finding leaks"):
         start = leak.start()
         word = raw_text[start : leak.end()]
         surrounding = raw_text[start - margin : leak.end() + margin]
@@ -39,7 +43,9 @@ def transform(raw_text):
         leaks_list.append(
             {"word": word, "start": start, "surrounding": surrounding, "type": "word"}
         )
-    for email in emails:
+        if random.random() < 0.5:
+            sleep(0.0001)
+    for email in tqdm.tqdm(emails, desc="Finding emails"):
         start = email.start()
         word = raw_text[start : email.end()]
         surrounding = raw_text[start - margin : email.end() + margin]
@@ -48,6 +54,8 @@ def transform(raw_text):
         leaks_list.append(
             {"word": word, "start": start, "surrounding": surrounding, "type": "email"}
         )
+        if random.random() < 0.5:
+            sleep(0.0001)
     return leaks_list
 
 
