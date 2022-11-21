@@ -2,7 +2,7 @@ GIT LEAKS
 
 if running docker:
     > docker build -t <image_name> .
-    > docker run -it -v <host_target_folder_absolute_path>:/output <image_name>
+    > docker run -it -v <host_target_folder_absolute_path>:/output --name <container-name> <image_name>
 
 if running locally:
     > pip install -r requirements.txt
