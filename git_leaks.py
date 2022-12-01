@@ -7,6 +7,7 @@ from time import sleep
 import random
 
 REPO_DIR = "./skale/skale-manager"
+OUT_DIR = "./out"
 
 
 def extract():
@@ -66,10 +67,10 @@ def load_csv(data):
     print(" " * 15 + "LEAKS FOUND")
     print(" " * 15 + "============")
     print(df)
-    if not os.path.exists("./output/"):
-        os.makedirs("./output")
-    df.to_csv("./output/leaks.csv", index=False)
-    print("\nFile saved in ./output/leaks.csv")
+    if not os.path.exists(OUT_DIR):
+        os.makedirs(OUT_DIR)
+    df.to_csv(f"{OUT_DIR}/leaks.csv", index=False)
+    print(f"\nFile saved in {OUT_DIR}/leaks.csv")
 
 
 def load_json(data):
@@ -82,10 +83,10 @@ def load_json(data):
     for d in dicts[:10]:
         print(d)
     print("...")
-    if not os.path.exists("./output/"):
-        os.makedirs("./output")
-    df.to_json("./output/leaks.json", orient="records")
-    print("\nFile saved in ./output/leaks.json")
+    if not os.path.exists(OUT_DIR):
+        os.makedirs(OUT_DIR)
+    df.to_json(f"{OUT_DIR}/leaks.json", orient="records")
+    print(f"\nFile saved in {OUT_DIR}/leaks.json")
 
 
 if __name__ == "__main__":
