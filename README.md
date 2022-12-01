@@ -1,8 +1,8 @@
 # GIT LEAKS
 
-## Project Description
-### Extracting possible leaks from a GitHub repository, finding keywords and emails with emails.
-### The script will ask you whether to save the leaks as csv or json, and then save them in the /output folder.
+## Project Description  
+
+Extracting possible leaks from a GitHub repository, finding keywords and emails with emails. The script will ask you whether to save the leaks as csv or json, and then save them in the /output folder.
 
 ---
 
